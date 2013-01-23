@@ -1,7 +1,7 @@
 site-appengine
 ==============
 
-this project is a complete template for a [Google App Engine](http://developers.google.com/appengine/) website based on the [HTML5 Boilerplate](http://html5boilerplate.com) and build from [samiq's site](http://github.com/samiq/site) template.
+this project is a complete application template for a [Google App Engine](http://developers.google.com/appengine/) website based on the [HTML5 Boilerplate](http://html5boilerplate.com) and build from [samiq's site](http://github.com/samiq/site) template.
 
 technologies and frameworks included
 ====================================
