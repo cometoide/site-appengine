@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 #
+# Copyright 2012 Cometoide.
+# @author: samiq
+#
 import os
 import webapp2
 import base_handlers
