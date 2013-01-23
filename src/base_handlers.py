@@ -13,11 +13,13 @@ logging.getLogger().setLevel(logging.DEBUG)
 class BasicHandler(webapp2.RequestHandler):
 	def get(self):
 		# Default handler for get requests
-		self.response.error(400)
+		self.response.set_status(404)
+		self.render_response("404.html")
 	
 	def post(self):
 		# Default handler for post requests
-		self.response.error(400)
+		self.response.set_status(404)
+		self.render_response("404.html")
 				
 	@webapp2.cached_property
 	def jinja2(self):
@@ -31,4 +33,5 @@ class BasicHandler(webapp2.RequestHandler):
 
 class NotFoundHandler(BasicHandler):
 	def get(self):
+		self.response.set_status(404)
 		self.render_response("404.html")
