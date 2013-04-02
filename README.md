@@ -7,7 +7,7 @@ technologies and frameworks included
 ====================================
 1. HTML5
 2. CSS3
-3. JQuery            — 1.9.0
+3. JQuery            — 1.9.1
 4. Modernizr         — 2.6.2
 5. Respond.js        — 1.1.0
 6. Bootstrap         — 2.3.1
