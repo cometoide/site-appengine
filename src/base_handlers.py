@@ -13,11 +13,11 @@ logging.getLogger().setLevel(logging.DEBUG)
 class BasicHandler(webapp2.RequestHandler):
 	def get(self):
 		# Default handler for get requests
-		self.response.error(400)
+		self.not_found()
 	
 	def post(self):
 		# Default handler for post requests
-		self.response.error(400)
+		self.not_found()
 
 	def not_found(self):
 		# Sends an 404 error back to the browser.
@@ -36,4 +36,4 @@ class BasicHandler(webapp2.RequestHandler):
 
 class NotFoundHandler(BasicHandler):
 	def get(self):
-		self.response.error(400)
+		self.not_found()
