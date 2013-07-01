@@ -9,6 +9,7 @@ technologies and frameworks included
 2. CSS3
 3. JQuery            — 1.10.1
 4. Modernizr         — 2.6.2
+5. Respond.js        — 1.1.0
 6. Bootstrap         — 2.3.2
 7. Segment.io        — [setup your account](http://segment.io)
 8. Python            — 2.7 
