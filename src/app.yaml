@@ -15,6 +15,10 @@ handlers:
 - url: /cdn
   static_dir: cdn
 
+- url: /apple-touch-icon-precomposed\.png
+  static_files: apple-touch-icon-precomposed.png
+  upload: apple-touch-icon-precomposed\.png
+
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
